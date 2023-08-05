@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div
       className={css({
-        bg: toggleColor ? "yellow.50" : "slate.950",
+        bg: toggleColor ? "slate.950" : "yellow.50",
         _motionReduce: { transition: "none" },
         _motionSafe: { transition: "all 0.2s" },
       })}
